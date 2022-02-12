@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: cek directory
         run: pwd
+      - name: cek isi directory
+        run: ls -l
       - name: Publish
         if: success()
         run: npm run deploy
