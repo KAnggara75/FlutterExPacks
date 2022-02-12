@@ -27,6 +27,8 @@ jobs:
     needs: [test]
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: cek directory
         run: pwd
       - name: cek isi directory
