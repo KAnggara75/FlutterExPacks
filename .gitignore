@@ -1,0 +1,6 @@
+# OS File
+._*
+thumbs.db
+
+node_modules
+*.vsix

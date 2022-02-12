@@ -1,0 +1,44 @@
+{
+	"name": "flutter-ex-packs",
+	"displayName": "FlutterExPacks By KAnggara",
+	"description": "Flutter Extention Packs for easy write your code with GetX Pattern for apps development with Flutter Framework.",
+	"version": "0.1.3",
+	"publisher": "KAnggara75",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"scripts": {
+		"deploy": "vsce publish --yarn",
+		"test": "ls -l && echo \"OK\" && exit 0"
+	},
+	"icon": "box_flutter.png",
+	"keywords": [
+		"ios",
+		"dart",
+		"kotlin",
+		"android",
+		"flutter"
+	],
+	"categories": [
+		"Extension Packs"
+	],
+	"repository": {
+		"url": "https://github.com/kanggara75/FlutterExPacks"
+	},
+	"homepage": "https://github.com/kanggara75/FlutterExPacks",
+	"bugs": {
+		"url": "https://github.com/kanggara75/FlutterExPacks/issues"
+	},
+	"extensionPack": [
+		"humao.rest-client",
+		"Dart-Code.flutter",
+		"Dart-Code.dart-code",
+		"usernamehw.errorlens",
+		"luanpotter.dart-import",
+		"get-snippets.get-snippets",
+		"pflannery.vscode-versionlens",
+		"jeroen-meijer.pubspec-assist",
+		"Nash.awesome-flutter-snippets",
+		"gmlewis-vscode.flutter-stylizer"
+	]
+}
