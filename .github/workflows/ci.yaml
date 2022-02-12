@@ -1,10 +1,11 @@
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   test:
+    name: Testing
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
@@ -26,6 +27,8 @@ jobs:
     needs: [test]
     runs-on: ubuntu-latest
     steps:
+      - name: cek directory
+        run: pwd
       - name: Publish
         if: success()
         run: npm run deploy
